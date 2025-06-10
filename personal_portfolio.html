@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ravitejaswini | Portfolio</title>
+  <style>
+    :root {
+      --primary-color: #6a11cb;
+      --accent-color: #2575fc;
+      --background-color: #f5f7fa;
+      --text-color: #333;
+      --section-bg: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--background-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    nav {
+      background: linear-gradient(to right, var(--primary-color), var(--accent-color));
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      background: linear-gradient(to right, #fc466b, #3f5efb);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    section {
+      background: var(--section-bg);
+      padding: 40px 30px;
+      margin: 20px auto;
+      max-width: 900px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      color: var(--primary-color);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li::before {
+      content: "\2022";
+      color: var(--accent-color);
+      font-weight: bold;
+      display: inline-block; 
+      width: 1em;
+      margin-left: -1em;
+    }
+
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: white;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <img src="c:\Users\RAVITEJASWINi\OneDrive\Desktop\MY_Documnets\passport photo.jpg" alt="Ravi Tejaswini Photo">
+    <h1>Bodedddula Ravi Tejaswini</h1>
+    <p>Aspiring Java Developer | Front-End Learner | AI & CSE Student</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a passionate student currently pursuing B.Tech in Computer Science and Engineering (Artificial Intelligence) at Audisankara College of Engineering & Technology. I’m skilled in Java, SQL, HTML/CSS, and DSA, and I'm actively seeking freelance projects and internships to apply my skills in real-world environments.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Java</li>
+      <li>SQL</li>
+      <li>HTML & CSS</li>
+      <li>Bootstrap</li>
+      <li>JavaScript</li>
+      <li>Data Structures & Algorithms (DSA)</li>
+      <li>Database Management Systems</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Time Series Stock Price Analysis:</strong> Used LSTM and GRU (RNNs) to predict Tesla stock prices using historical data. Aimed at assisting financial analysts in making data-driven decisions.</li>
+      <li><strong>OTP Generator (Java):</strong> Generates secure OTPs and sends them via email using JavaMail API.</li>
+      <li><strong>Student Fee Manager (Java + SQL):</strong> A console-based system to manage student fee records using JDBC.</li>
+      <li><strong>Portfolio Website:</strong> This responsive site built using HTML/CSS showcases my skills and projects.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:ravitejaswinisai@gmail.com">ravitejaswinisai@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sai-ravitejaswini-7b00">linkedin.com/in/sai-ravitejaswini-7b00</a></p>
+    <p>GitHub: <a href="https://github.com/Sairavitejaswini">github.com/Sairavitejaswini</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bodedddula Ravi Tejaswini. All rights reserved.</p>
+  </footer>
+</body>
+</html>
